@@ -31,7 +31,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Builder
 @Entity
-@Table(name="dt_contatos", schema = "fmba")
+@Table(name="dt_contatos")
 public class Contato implements Serializable {
 	private static final long serialVersionUID = 1L;
 

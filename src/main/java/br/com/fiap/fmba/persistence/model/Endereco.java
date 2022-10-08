@@ -31,7 +31,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Builder
 @Entity
-@Table(name="dt_enderecos", schema = "fmba")
+@Table(name="dt_enderecos")
 public class Endereco implements Serializable {
 
 	/**

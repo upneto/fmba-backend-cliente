@@ -23,7 +23,7 @@ import lombok.Setter;
 @AllArgsConstructor
 @Builder
 @Entity
-@Table(name="dt_tipo_contato", schema = "fmba")
+@Table(name="dt_tipo_contato")
 public class TipoContato implements Serializable {
 
 	/**
