@@ -25,4 +25,4 @@ Obs.: Se preferir também é possível iniciar a aolicação executando o arquiv
 
 A documentação básica foi disponibilizada no endereço abaixo (Swagger):
 
-[https://fmba-backend-cliente.herokuapp.com/swagger-ui/index.htm](https://fmba-backend-cliente.herokuapp.com/swagger-ui/index.htm)
+[https://fmba-backend-cliente.herokuapp.com/swagger-ui/index.html](https://fmba-backend-cliente.herokuapp.com/swagger-ui/index.html)
