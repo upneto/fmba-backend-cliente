@@ -17,6 +17,7 @@ import org.mockito.MockitoAnnotations;
 import org.mockito.junit.MockitoJUnitRunner;
 import org.springframework.http.ResponseEntity;
 
+import br.com.fiap.fmba.controller.api.ClienteController;
 import br.com.fiap.fmba.controller.payload.ClientePayload;
 import br.com.fiap.fmba.resources.exception.DaoException;
 import br.com.fiap.fmba.service.ClienteService;
@@ -53,7 +54,7 @@ public class TestClienteController {
 
 	/**
 	 * Test method for
-	 * {@link br.com.fiap.fmba.controller.ClienteController#findAll()}.
+	 * {@link br.com.fiap.fmba.controller.api.ClienteController#findAll()}.
 	 * @throws DaoException 
 	 */
 	@Test
@@ -73,7 +74,7 @@ public class TestClienteController {
 
 	/**
 	 * Test method for
-	 * {@link br.com.fiap.fmba.controller.ClienteController#findBy(long)}.
+	 * {@link br.com.fiap.fmba.controller.api.ClienteController#findBy(long)}.
 	 * @throws DaoException 
 	 */
 	@Test
@@ -90,7 +91,7 @@ public class TestClienteController {
 
 	/**
 	 * Test method for
-	 * {@link br.com.fiap.fmba.controller.ClienteController#insert(br.com.fiap.fmba.persistence.model.Cliente)}.
+	 * {@link br.com.fiap.fmba.controller.api.ClienteController#insert(br.com.fiap.fmba.persistence.model.Cliente)}.
 	 * @throws DaoException 
 	 */
 	@Test
@@ -104,7 +105,7 @@ public class TestClienteController {
 
 	/**
 	 * Test method for
-	 * {@link br.com.fiap.fmba.controller.ClienteController#update(br.com.fiap.fmba.persistence.model.Cliente)}.
+	 * {@link br.com.fiap.fmba.controller.api.ClienteController#update(br.com.fiap.fmba.persistence.model.Cliente)}.
 	 * @throws DaoException 
 	 */
 	@Test
@@ -117,7 +118,7 @@ public class TestClienteController {
 
 	/**
 	 * Test method for
-	 * {@link br.com.fiap.fmba.controller.ClienteController#delete(long)}.
+	 * {@link br.com.fiap.fmba.controller.api.ClienteController#delete(long)}.
 	 * @throws DaoException 
 	 */
 	@Test
